@@ -1,0 +1,61 @@
+html {
+    line-height: 1.15; 
+    -webkit-text-size-adjust: 100%; 
+}
+
+.first {
+    
+    font-size: 3em;
+}
+
+.header{
+    margin-left: 13em;
+    margin-top: 15em;
+    
+}
+
+.branch {
+    -webkit-background-clip: text;
+    font-size: 1.2em;
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, var(--gradient-color-stops));
+    --gradient-from-color: #FB5607;
+    --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(251, 86, 7, 0));
+    --gradient-to-color: #FF006E;
+    font-weight: 800;
+    
+}
+
+a {
+    --text-opacity: 1;
+    color: #3A86FF;
+    font-weight: 500;
+}
+
+.second {
+    
+    color: #616366;
+    margin-left: 13em;
+    margin-right: 15em;
+}
+
+.primary {
+    font-size: 1.3rem;
+}
+
+.third {
+    margin-top: 1rem;
+    margin-left: 26em;
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+    letter-spacing: -0.035em;
+    font-weight: 600;
+    background-clip: text;
+    transition-duration: 300ms;
+}
+
+.nav-link {
+    color: #000;
+    font-weight: 800;
+}
