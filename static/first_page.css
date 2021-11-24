@@ -1,108 +1,15 @@
-html {
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    margin: 0; }
-  
-  body {
-    margin: 0; }
-    
-  body, header {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box; 
-  }
-  
-  a {
-    background: transparent; }
-  
-  a:active,
-  a:hover {
-    outline: 0; }
-    
-  * {
-    line-height: 26px;
-    line-height: 1.625rem;
-    margin: 0px 0px 26px;
-    margin: 0rem 0rem 1.625rem; }
-  
-  h1 {
-    font-size: 40px;
-    font-size: 2.5rem;
-    line-height: 52px;
-    line-height: 3.25rem;
-    margin-top: 104px;
-    margin-top: 6.5rem;
-    margin-bottom: 26px;
-    margin-bottom: 1.625rem; }
-  
-  h2 {
-    font-size: 27px;
-    font-size: 1.6875rem;
-    line-height: 39px;
-    line-height: 2.4375rem;
-    margin-top: 65px;
-    margin-top: 4.0625rem;
-    margin-bottom: 13px;
-    margin-bottom: 0.8125rem; }
-    
-   a {
-    color: #222;
-    transition: all .3s; }
-    a:hover {
-      color: #222; }
-    a:visited {
-      color: #666; }
-      a:visited:hover {
-        color: #222; }
-    a:active {
-      color: #280680; }
-  
-  
-  .footer {
-    background-color: rgba(0, 0, 0, 0.98);
-    background-image: url("../static/images/background.png");
-    color: #000;
-    padding: 1rem 0;
-    margin: 4rem 0 0 0;
-    font-size: 85%; }
-  
-  .footer a:link, .footer a:visited {
-    color: #000; }
-  
-  .footer p {
-    margin: 0;
-    padding: 0; }
-  
-  .footer .wrapper {
-    background-color: rgba(255, 255, 255, 0.6);
-    padding: 1rem;
-    border-radius: 3px; }
-  
-  .panel-box {
-    background-image: url("../static/images/background.png");
-    border: 1px solid #999;
-    border-radius: 3px;
-    padding: 1rem;
-    position: relative; }
-  
-  .panel-primary {
-    background-image: url("../static/images/background.png");
-    color: #fff; }
-  
-  .panel-primary a:link,
-  .panel-primary a:visited,
-  .homepage-bar a:link,
-  .homepage-bar a:visited {
-    color: #fff; }
-  
-  .panel-box > a:link, .panel-box > a:visited {
-    text-decoration: none;
-    color: #000; }
-  
-  .panel-box ul {
-    margin: 1rem 0;
-    padding: 0 0 0 1.2em; }
-  
-  .home-layout h1, .home-layout h2, .panel-box h3, .example-layout h3 {
-    margin: 0; }
-  
+header {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.98);
+  background-image: url("../images/background.png");
+  width: 90%;
+  max-width: 1600px; 
+}
+
+.social {
+  position: absolute;
+  top: 20px;
+  right: 20px; 
+}
