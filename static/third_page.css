@@ -24,7 +24,6 @@ a {
 
 .article {
     color: white;
-    background-image: url('../static/images/bg_image.jpg');
     text-align: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -91,4 +90,16 @@ h3 {
 
 .col2{
     margin-left: 15em;
+}
+
+.col3{
+    margin-left: 5em;
+}
+
+.col4 {
+    margin-left: 5em;
+}
+
+.col5 {
+    margin-left: 3em;
 }
