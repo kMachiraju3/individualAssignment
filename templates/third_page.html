@@ -7,15 +7,153 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="{{url_for('static', filename='third.css')}}" rel="stylesheet" />
+    <link href="{{url_for('static', filename='third_page.css')}}" rel="stylesheet" />
     <title>Harry Potter and Fantastic Beasts Books | Wizarding World</title>
   </head>
   <body>
     
-    <div class="logo">
-        <img src="../static/images/Logo.png" alt="Logo"/>
+    <!--Logo image and Login Buttons-->
+
+    <div class="d-grid gap-2 d-md-block">
+      <img src="../static/images/Logo.png" href= "/third" alt="Logo" style="height: 115px;"/>
+      <button type="button" class="btn btn-outline-warning">Login</button>
     </div>
 
+    <!--Nav bar-->
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                NEWS & FEATURES
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">NEWS</a></li>
+                <li><a class="dropdown-item" href="#">FEATURES</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+          <a class="nav-link" href="#">QUIZZES</a>
+          <a class="nav-link" href="#">PUZZLES</a>
+          <a class="nav-link" href="#">J.K. ROWLING ARCHIVE</a>
+        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                DISCOVER
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">BOOKS</a></li>
+                <li><a class="dropdown-item" href="#">FILMS</a></li>
+                <li><a class="dropdown-item" href="#">PORTKEY GAMES</a></li>
+                <li><a class="dropdown-item" href="#">ON STAGE</a></li>
+                <li><a class="dropdown-item" href="#">EXPERIENCES</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+          <a class="nav-link" href="#">QUIZ CHAMPIONSHIP</a>
+          <a class="nav-link" href="#">HOGWARTS SORTING</a>
+          <a class="nav-link" href="#">JOIN THE CLUB</a>
+          <a class="nav-link" href="#">SHOP</a>
+      </ul>
+      </div>
+    </nav>
+
+    <!--paragraph-->
+    <div class="article">
+      <h1>DISCOVER THE WIZARDING WORLD</h1>
+      <h2><strong>BOOKS</strong></h2> 
+      <p>The first Harry Potter book, Harry Potter and the Philosopher’s Stone, was published by Bloomsbury in 1997 to immediate popular and critical acclaim. Six further best-selling books, three companion books, a playscript and two screenplays have since followed. The Harry Potter books have been translated into over 80 languages, won multiple awards, and sold more than 500 million copies worldwide, becoming the best-selling book series in history...</p>
+    </div>
+
+    <!--Decoration-->
+    <div class="wrapper">
+      <div class="divider div-transparent div-stopper"></div>
+    </div>
+
+    
+    <div class="columns">
+      <h2><strong> Harry Potter </strong></h2>
+    </div>
+
+    <div class="wrapper">
+      <div class="divider div-transparent div-stopper"></div>
+    </div>
+
+    <!---->
+    <div class="container">
+      <div class="row row-cols-4">
+        <div class="col">
+          <img src="../static/images/Sorcerer's_stone.png" href= "/third" alt="Logo" style="height: 315px; width: 250px;"/>
+          <h3>Harry Potter and the Sorcerer's Stone</h3>
+        </div>
+        <div class="col">
+          <img src="../static/images/Chamber_of_secrets.png" href= "/third" alt="Logo" style="height: 315px; width: 250px;"/>
+          <h3>Harry Potter and the Chamber of Secrets</h3>
+        </div>
+        <div class="col">
+          <img src="../static/images/Prisoner_of_Azkaban.png" href= "/third" alt="Logo" style="height: 315px; width: 250px;"/>
+          <h3>Harry Potter and the Prisoner of Azkaban</h3>
+        </div>
+        <div class="col">
+          <img src="../static/images/Goblet_of_fire.png" href= "/third" alt="Logo" style="height: 315px; width: 250px;"/>
+          <h3>Harry Potter and the Goblet of Fire</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row row-cols-4">
+        <div class="col">
+          <img src="../static/images/Order_of_the_phoenix.png" href= "/third" alt="Logo" style="height: 315px; width: 250px;"/>
+          <h3>Harry Potter and the Order of the Phoenix</h3>
+        </div>
+        <div class="col">
+          <img src="../static/images/Half_blood_prince.png" href= "/third" alt="Logo" style="height: 315px; width: 250px;"/>
+          <h3>Harry Potter and the Half Blood Prince</h3>
+        </div>
+        <div class="col">
+          <img src="../static/images/Deathly_hallows.png" href= "/third" alt="Logo" style="height: 315px; width: 250px;"/>
+          <h3>Harry Potter and the Deathly Hallows</h3>
+        </div>
+        <div class="col">
+          <img src="../static/images/Cursed_child.png" href= "/third" alt="Logo" style="height: 315px; width: 250px;"/>
+          <h3>Harry Potter and the Cursed Child</h3>
+        </div>
+      </div>
+    </div>
+
+    <!--Decoration-->
+    <div class="wrapper">
+      <div class="divider div-transparent div-stopper"></div>
+    </div>
+
+    
+    <div class="columns">
+      <h2><strong> Fantastic Beasts </strong></h2>
+    </div>
+
+    <div class="wrapper">
+      <div class="divider div-transparent div-stopper"></div>
+    </div>
+
+    <!---->
+    <div class="container">
+      <div class="row row-cols-4">
+        <div class="col1">
+          <img src="../static/images/Fantastic_Beasts.png" href= "/third" alt="Logo" style=" height: 315px; width: 250px;"/>
+          <h3 ">Fantastic Beasts and Where to Find Them</h3>
+        </div>
+        <div class="col2">
+          <img src="../static/images/Crimes_of_Grindelwald.png" href= "/third" alt="Logo" style=" height: 315px; width: 250px;"/>
+          <h3 >Fantastic Beats: The Crimes of Grindelwald</h3>
+        </div>
+      </div>
+    </div>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
